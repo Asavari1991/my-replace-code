@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>HomeSpices - our spices</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/icomoon-social.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/leaflet.css" />
+		<!--[if lte IE 8]>
+		    <link rel="stylesheet" href="css/leaflet.ie.css" />
+		<![endif]-->
+		<link rel="stylesheet" href="css/main.css">
+
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+<style>
+	.imgbackground2 {
+		background-image: url("img/dryfruitsbg2.jpg");
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-position: center;
+		background-size: cover;
+		min-width: 100%;
+		min-height: 100%;
+		height: auto !important;
+	}
+	nopadding {
+		margin-top:0px!important;
+		margin-bottom:0px!important;
+	}
+
+	.img-circle {
+		border-radius: 50%;
+	}
+	</style>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+
+        <!-- Navigation & Logo-->
+        <div class="mainmenu-wrapper">
+	        <div class="container-fluid" >
+		        <nav class="navbar navbar-toggleable-md  mainmenu" id="mainmenu" >
+				  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+					  <li class="logo-wrapper"><a href="index.html"><img src="img/HomeSpicesLogo.jpg" alt="Multipurpose Twitter Bootstrap 
+Template"></a></li>	
+					  <li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  About Us
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+						  <a class="dropdown-item" href="historySpices.html">History of Indian Spices</a>
+						  
+						</div>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="vissionMission.html">Vission Statement</a>
+					  </li>	
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Our Products
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+						  <a class="dropdown-item" href="spices.html">Spices</a>
+						  <a href="dryfruits.html">DryFruits</a>
+						</div>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="contactUs.html">Contact Us</a>
+					  </li>
+					</ul>
+				  </div>
+				</nav>
+			</div>
+		</div>
+
+        <!-- Page Title -->
+		<div class="section section-breadcrumbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Dry-Fruits Varieties</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+        <div class="section ">
+	        <div class="container">
+				<div class="row">
+	        		<!-- Pricing Plans Wrapper -->
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							<div class="card-block">
+								<h3 class="card-title">Cashews</h3>
+								<div class="ribbon-wrapper">
+								<div class="price-ribbon ribbon-red">Popular</div>
+								</div>
+								<p><img class="img-circle" src="img/spices/cashewsnut.png" alt="cashew"></p>
+								<h6><span class="badge badge-default">Rs 120/100gm 300/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 550/500gm 1050/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Roasted Cashew</h3>
+								<p><img class="img-circle" src="img/spices/cashews.jpg" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 140/100gm 350/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 600/500gm 1100/kg</span></h6>
+							  </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Golden Raisins</h3>
+								<p><img class="img-circle" src="img/spices/goldenRaisin.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 55/100gm 135/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 250/500gm 400/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Black Raisins</h3>
+								<p><img class="img-circle" src="img/spices/blackRaisin.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 60/100gm 150/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 270/500gm 520/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+	        		<!-- End Pricing Plans Wrapper -->
+	        	</div>
+				<br/>
+				<div class="row">
+	        		<!-- Pricing Plans Wrapper -->
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							<div class="card-block">
+								<h3 class="card-title">Kashmir Walnut</h3>
+								<div class="ribbon-wrapper">
+								<div class="price-ribbon ribbon-red">Popular</div>
+								</div>
+								<p><img class="img-circle" src="img/spices/walnuts.png" alt="cashew"></p>
+								<h6><span class="badge badge-default">Rs 200/100gm 500/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 950/500gm 1800/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Dried Figs</h3>
+								<p><img class="img-circle" src="img/spices/figs.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 110/100gm 270/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 500/500gm 900/kg</span></h6>
+							  </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Dried Golden Dates</h3>
+								<p><img class="img-circle" src="img/spices/drydates.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 30/100gm 70/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 135/500gm 250/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Dried Kiwi</h3>
+								<p><img class="img-circle" src="img/spices/kiwi.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 115/100gm 285/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 550/500gm 1000/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+	        		<!-- End Pricing Plans Wrapper -->
+	        	</div>
+				<br/>
+				<div class="row">
+        			<!-- Pricing Plan -->
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Watermelon Seeds</h3>
+								<p><img class="img-circle" src="img/spices/melonseeds.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 55/100gm 130/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 250/500gm 450/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Apricot</h3>
+								<p><img class="img-circle" src="img/spices/apricot.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 120/100gm 295/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 500/500gm 900/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+	        		<!-- End Pricing Plans Wrapper -->
+	        	</div>
+				<br/>
+				<div class="section section-breadcrumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-sm-12">
+						<h1>Almonds Varieties</h1>
+						</div>
+					</div>
+				</div>
+				</div>
+        
+				<div class="row">
+	        		<!-- Pricing Plans Wrapper -->
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Almond Nuts</h3>
+								<p><img class="img-circle" src="img/spices/almonds.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 120/100gm 300/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 550/500gm 1000/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Roasted Almonds</h3>
+								<p><img class="img-circle" src="img/spices/almonds.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 120/100gm 300/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 600/500gm 1100/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+	        		<!-- End Pricing Plans Wrapper -->
+	        	</div>
+				<br/>
+				<div class="section section-breadcrumbs">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+						<h1>Pistachio Varieties</h1>
+						</div>
+					</div>
+				</div>
+				</div>
+        
+				<div class="row">
+	        		<!-- Pricing Plans Wrapper -->
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Pistachio Soft</h3>
+								<p><img class="img-circle" src="img/spices/Pista.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 225/100gm 560/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 1000/500gm 1900/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Pistachio Nuts</h3>
+								<p><img class="img-circle" src="img/spices/Pista.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 180/100gm 450/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 800/500gm 1500/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+	        		<div class="col-sm-6 col-lg-3">
+						<div class="card text-center">
+							 <div class="card-block">
+								<h3 class="card-title">Covered Roasted Salty Pistachios</h3>
+								<p><img class="img-circle" src="img/spices/Pista.png" alt="Service 3"></p>
+								<h6><span class="badge badge-default">Rs 200/100gm 500/250gm</span></h6>
+								<h6><span class="badge badge-default">Rs 850/500gm 1550/kg</span></h6>
+							 </div>
+						</div>
+					</div>
+	        		<!-- End Pricing Plans Wrapper -->
+	        	</div>			
+	    	</div>
+	    </div>
+	    <!-- End Pricing Table -->
+
+	    <!-- Footer -->
+	   	    <div class="footer">
+	    	<div class="container">
+		    	<div class="row">
+					<div class="col-footer col-lg-3 col-sm-6">	
+		    			<p class="contact-us-details">
+	        				<b><a href="index.html">Home</a></b></br>
+	        				<b><a href="index.html">About Us</a></b></br>
+	        				<b><a href="index.html">Vision and Mission</a></b><br/>
+							<b><a href="index.html">Our Products</a></b><br/>
+	        			</p>
+		    		</div>
+		    		<div class="col-footer col-lg-4 col-sm-6">
+		    			<h3>Contact Us</h3>
+		    			<p class="contact-us-details">
+	        				<b>Phone:</b> +91 8451860046</br>
+	        				<b><img src="img/paytm.jpg" alt="Multipurpose Twitter Bootstrap Template">
+							<img src="img/whatsapp.jpg" alt="Multipurpose Twitter Bootstrap Template"> +91 9819701924</br>
+	        				<b>Email:</b> <a href="mailto:homespices2017@gmail.com">homespices2017@gmail.com</a><br/>
+							<b>We are available 24X7 at your service.</b><br/>
+	        			</p>
+		    		</div>
+					<div class="col-footer col-lg-5 col-sm-6">
+		    			<h3>Our Market</h3>
+		    			<p class="contact-us-details">
+	        				
+							<img src="img/whatsapp.jpg" alt="Multipurpose Twitter Bootstrap Template">
+	        				
+	        			</p>
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div class="col-sm-12 col-lg-12">
+		    			<div class="footer-copyright">&copy; 2017 HomeSpices. All rights reserved.</div>
+		    		</div>
+		    	</div>
+		    </div>
+	    </div>
+
+        <!-- Javascripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+        <script src="js/jquery.fitvids.js"></script>
+        <script src="js/jquery.sequence-min.js"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <script src="js/main-menu.js"></script>
+        <script src="js/template.js"></script>
+		<script>
+			$('.Count').each(function () {
+			var $this = $(this);
+			jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+			duration: 1000,
+			easing: 'swing',
+			step: function () {
+				$this.text(Math.ceil(this.Counter));
+				}
+				});
+			});
+		</script>
+    </body>
+</html>
